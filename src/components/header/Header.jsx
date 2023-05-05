@@ -18,6 +18,10 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   const controlNavbar = () => {
     console.log(window.scrollY);
     if (window.scrollY > 200) {
@@ -67,7 +71,11 @@ const Header = () => {
   };
 
   return (
-    <Header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
+    <header
+      className={`headerContainer header ${
+        mobileMenu ? "mobileView" : ""
+      } ${show}`}
+    >
       <ContentWrapper>
         <div className="logo">
           <img src={logo} alt="" />
@@ -76,7 +84,7 @@ const Header = () => {
           <li className="menuItem" onClick={() => navigationHandler("movie")}>
             Movies
           </li>
-          <li className="menuItem" onClick={() => navigationHandler("rv")}>
+          <li className="menuItem" onClick={() => navigationHandler("tv")}>
             Tv Shows
           </li>
           <li className="menuItem">
@@ -109,7 +117,7 @@ const Header = () => {
           </ContentWrapper>
         </div>
       )}
-    </Header>
+    </header>
   );
 };
 
