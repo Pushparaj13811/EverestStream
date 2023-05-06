@@ -22,11 +22,11 @@ const Footer = () => {
           <li className="menuItem">FAQ</li>
         </ul>
         <div className="infoText">
-          Thanks for visiting our website. We aim to provide you with the best
-          experience and welcome your feedback. Feel free to contact us through
-          my personal portfolio website, you can go to by clicking contact me below. Follow us on social media to stay updated on our
-          latest news, promotions, and events. Join our community and share your
-          feedback with us.
+          Thanks for visiting our website. We strive to provide the best
+          possible experience and welcome your feedback. Contact us through my
+          personal portfolio website by clicking 'Contact Me' below. Follow us
+          on social media to stay updated on our latest news, promotions, and
+          events, and join our community to share your feedback.
         </div>
         <div className="socialIcons">
           <a

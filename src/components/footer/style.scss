@@ -48,10 +48,12 @@
         max-width: 800px;
         margin-bottom: 20px;
         color: white;
+        text-align: justify;
 
         @include md {
             font-size: 1rem;
             margin-bottom: 30px;
+            text-align: center;
         }
     }
 
