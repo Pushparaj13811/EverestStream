@@ -18,7 +18,9 @@
     }
 
     &.show {
-        background-color: var(--black-lighter);
+        background: rgba(0, 0, 0, 0.85);
+        backdrop-filter: blur(3.5px);
+        -webkit-backdrop-filter: blur(3.5px);
     }
 
     &.hide {
@@ -35,8 +37,13 @@
         cursor: pointer;
 
         img {
-            height: 50px;
+            height: 60px;
+
+            @include md {
+                height: 90px;
+            }
         }
+
     }
 
     .menuItems {
