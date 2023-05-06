@@ -30,18 +30,38 @@ const Footer = () => {
           pariatur.
         </div>
         <div className="socialIcons">
-          <span className="icon">
-            <FaFacebookF />
-          </span>
-          <span className="icon">
-            <FaInstagram />
-          </span>
-          <span className="icon">
-            <FaTwitter />
-          </span>
-          <span className="icon">
-            <FaLinkedin />
-          </span>
+          <a
+            href="https://www.facebook.com/profile.php?id=100029064882284"
+            target="_blank"
+          >
+            <span className="icon">
+              <FaFacebookF />
+            </span>
+          </a>
+          <a href="https://www.instagram.com/pushparaj1381/" target="_blank">
+            <span className="icon">
+              <FaInstagram />
+            </span>
+          </a>
+          <a href="https://twitter.com/pushparaj1381" target="_blank">
+            <span className="icon">
+              <FaTwitter />
+            </span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pushparaj-mehta-82a801206/?originalSubdomain=in"
+            target="_blank"
+          >
+            <span className="icon">
+              <FaLinkedin />
+            </span>
+          </a>
+        </div>
+        <div className="developer">
+          <p>&copy; 2023 Pushparaj Mehta. All rights reserved.</p>
+          <a href="https://www.hpm.com.np" target="_blank">
+            Contact Me
+          </a>
         </div>
       </ContentWrapper>
     </footer>

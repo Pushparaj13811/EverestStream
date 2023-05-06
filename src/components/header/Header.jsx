@@ -45,7 +45,7 @@ const Header = () => {
 
   const searchQueryHandler = (event) => {
     if (event.key === "Enter" && query.length > 0) {
-      navigate("/search/${query}");
+      navigate(`/search/${query}`);
       setTimeout(() => {
         setShowSearch(false);
       }, 1000);
@@ -77,7 +77,7 @@ const Header = () => {
       } ${show}`}
     >
       <ContentWrapper>
-        <div className="logo">
+        <div className="logo" onClick={() => navigate("/")}>
           <img src={logo} alt="" />
         </div>
         <ul className="menuItems">
