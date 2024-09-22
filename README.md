@@ -34,8 +34,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/evereststream.git
-   cd evereststream
+   git clone https://github.com/Pushparaj13811/EverestStream.git
+   cd EverestStream
    ```
 
 2. Install dependencies:
