@@ -24,11 +24,11 @@
 ## Tech Stack
 
 - **Frontend**: React.js (with hooks and context), Vite
-- **Styling**: CSS (or TailwindCSS if used)
+- **Styling**: CSS & Scss
 - **API**: TMDB (The Movie Database) API
 - **Routing**: React Router DOM
-- **HTTP Client**: Axios or Fetch API
-- **Deployment**: Netlify, Vercel, or any static hosting
+- **HTTP Client**: Axios and Fetch API
+- **Deployment**: Netlify
 
 ## Setup and Installation
 
@@ -87,10 +87,16 @@ To use the **TMDB API**, you'll need an API key. Follow these steps:
 ## Screenshots
 
 ### Home Page
-![Home Page](path-to-screenshot-home.png)
+![Home Page](./public/Home.png)
 
 ### Movie Details
-![Movie Details](path-to-screenshot-movie-details.png)
+![Movie Details](./public/movie-page.png)
+
+### Explore
+![Explore](./public/second.png)
+
+### Cast and Crew
+![Cast and crew Details](./public/cast.png)
 
 ## Contributing
 
