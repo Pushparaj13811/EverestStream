@@ -13,6 +13,8 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aedf7726-e291-4c31-8bf1-e3cb402ddacb/deploy-status)](https://app.netlify.com/sites/evereststream/deploys)
+
 ## Features
 
 - Browse movies and TV shows with detailed descriptions.
